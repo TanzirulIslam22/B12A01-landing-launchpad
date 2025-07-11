@@ -186,10 +186,9 @@ nav {
 /* Get in Touch section  */
 
 .touch {
-  margin: auto;
   display: flex;
   justify-content: space-between;
-  margin: 100px auto;
+  margin: 200px auto;
   max-width: 1350px;
   height: 495px;
 }
@@ -302,4 +301,80 @@ nav {
   font-weight: 400;
   color: #8987a1;
   background-color: white;
+}
+
+/* feedback part  */
+
+.feedback {
+  margin: auto;
+  max-width: 1350px;
+  height: 300px;
+}
+
+.feedback-title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.feedback-boxes {
+  stroke: #f2eded;
+  height: 242px;
+  display: flex;
+  justify-content: space-around;
+}
+.star-images {
+  margin-top: 10px auto;
+}
+
+.box {
+  border: 1px solid gray;
+  border-radius: 14px;
+  padding: 20px 0px 0px 20px;
+  width: 30%;
+}
+
+.box-title {
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.main-feedback {
+  margin-top: 0;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.feedback-identitites {
+  display: flex;
+  width: 320px;
+  align-items: center;
+}
+
+.reviewer-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* 🔵 makes it a perfect circle */
+  object-fit: cover;
+}
+
+.nameAndtime {
+  margin-top: 0px;
+  width: 250px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.reviewer-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nameAndtime p,
+.nameAndtime data {
+  margin: 02px; /* kills the browser’s default <p> margins */
 }
