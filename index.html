@@ -1,82 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing-launchpad</title>
-    <!-- Inter Font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Raleway Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
 
-    <link rel="stylesheet" href="Styles/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing-launchpad</title>
+  <!-- Inter Font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <!-- Raleway Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
 
-  <body>
-    <header class="header-part">
-      <nav>
-        <p class="nav-logo inter-normal">LOGO</p>
-        <a href=""
-          ><button class="nav-button raleway-normal">Sign Up</button></a
-        >
-      </nav>
+  <link rel="stylesheet" href="Styles/style.css" />
+</head>
 
-      <div class="banner raleway-normal">
-        <h1 class="banner-description">
-          Cool Dark UI Template for Webflow Agencies!
-        </h1>
-        <a href=""><button class="banner-button">Stay Focused</button></a>
+<body>
+  <header class="header-part">
+    <nav>
+      <p class="nav-logo inter-normal">LOGO</p>
+      <a href=""><button class="nav-button raleway-normal">Sign Up</button></a>
+    </nav>
+
+    <div class="banner raleway-normal">
+      <h1 class="banner-description">
+        Cool Dark UI Template for Webflow Agencies!
+      </h1>
+      <a href=""><button class="banner-button">Stay Focused</button></a>
+    </div>
+  </header>
+
+  <main>
+    <!-- action part  -->
+    <section class="action raleway-normal">
+      <div class="left-side">
+        <p class="title">See It in Action</p>
+        <p class="subtitle">
+          Explore the live preview and imagine your brand in this bold new
+          look.
+        </p>
+        <a href=""><button class="launch-live">Launch Live Preview</button></a>
       </div>
-    </header>
+      <img class="action-image" src="Assets/wc-mini.png" alt="" />
+    </section>
 
-    <main>
-      <!-- action part  -->
-      <section class="action raleway-normal">
-        <div class="left-side">
-          <p class="title">See It in Action</p>
-          <p class="subtitle">
-            Explore the live preview and imagine your brand in this bold new
-            look.
-          </p>
-          <a href=""
-            ><button class="launch-live">Launch Live Preview</button></a
-          >
-        </div>
-        <img class="action-image" src="Assets/wc-mini.png" alt="" />
-      </section>
-
-      <!-- Productive user part  -->
-      <section class="productive-user">
-        <div class="productive">
-          <p class="centered-title raleway-normal">
-            Joined Thousands of Productive Users
-          </p>
-          <div class="scores inter-normal">
-            <div class="score-card">
-              <p class="score-number">50K</p>
-              <p class="score-detail">Active Users</p>
-            </div>
-            <div class="score-card">
-              <p class="score-number">2M+</p>
-              <p class="score-detail">Focus Sessions</p>
-            </div>
-            <div class="score-card">
-              <p class="score-number">95%</p>
-              <p class="score-detail">Satisfaction Rate</p>
-            </div>
+    <!-- Productive user part  -->
+    <section class="productive-user">
+      <div class="productive">
+        <p class="centered-title raleway-normal">
+          Joined Thousands of Productive Users
+        </p>
+        <div class="scores inter-normal">
+          <div class="score-card">
+            <p class="score-number">50K</p>
+            <p class="score-detail">Active Users</p>
+          </div>
+          <div class="score-card">
+            <p class="score-number">2M+</p>
+            <p class="score-detail">Focus Sessions</p>
+          </div>
+          <div class="score-card">
+            <p class="score-number">95%</p>
+            <p class="score-detail">Satisfaction Rate</p>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+
+    <!-- Touch Section  -->
+    <section class="touch">
+      <div class="touch-leftside">
+        <p class="touch-leftside-title">Let's Get in Touch</p>
+      </div>
+      <div class="touch-rightside inter-normal">
+        <form class="touch-form" action="">
+          <label class="touch-level" for="Email">Email</label>
+          <input class="touch-inputs" type="text" placeholder="example@gmail.com">
+
+          <label class="touch-level" for="Name">Name</label>
+          <input class="touch-inputs" type="text" placeholder="full name">
+
+          <label class="touch-level" for="Message">Message</label>
+          <textarea class="touch-inputs" id="contact-msg" rows="5" placeholder="Write your message…"></textarea>
+
+        </form>
+        <a href=""><button class="touch-button">Get in Touch</button></a>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>

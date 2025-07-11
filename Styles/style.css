@@ -10,6 +10,8 @@
   font-style: normal;
 }
 
+/* Header Part */
+
 .header-part {
   background-image: url(../Assets/Hero-bg.png);
   height: 698px;
@@ -80,6 +82,8 @@ nav {
   color: white;
 }
 
+/*<!-- action part  -->*/
+
 .action {
   display: flex;
   justify-content: space-between;
@@ -128,6 +132,8 @@ nav {
   height: 358px;
 }
 
+/* <!-- Productive user part  --> */
+
 .productive-user {
   border-radius: 24px;
   background-color: rgba(78, 71, 255, 0.1);
@@ -175,4 +181,78 @@ nav {
   height: 24px;
   font-weight: 400;
   font-size: 18px;
+}
+
+/* Get in Touch section  */
+
+.touch {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  max-width: 1350px;
+  height: 580px;
+}
+
+.touch-leftside {
+  width: 650px;
+  height: 436px;
+}
+
+.touch-rightside {
+  width: 700px;
+  height: 490px;
+  margin: 40px 0px 40px 60px;
+}
+
+.touch-rightside input,
+.touch-rightside textarea {
+  margin-bottom: 1.5rem;
+}
+
+.touch-leftside-title {
+  font-weight: 700;
+  font-size: 97px;
+}
+
+.touch-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.touch-level {
+  font-weight: 500;
+  font-size: 18px;
+  /* gap: 20px; */
+}
+
+.touch-inputs {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px 32px;
+  font-size: 20;
+  font-weight: 400;
+}
+
+.touch-button {
+  height: 56px;
+  width: 156px;
+  background-color: #4e47ff;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.touch-button:hover {
+  background-color: #3d368d;
+  color: white;
+}
+
+.touch-rightside input::placeholder,
+.touch-rightside textarea::placeholder {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #888;
 }
